@@ -1,0 +1,14 @@
+D:\Senehacollege\ExceptionHandling\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.exe
+D:\Senehacollege\ExceptionHandling\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.deps.json
+D:\Senehacollege\ExceptionHandling\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.runtimeconfig.json
+D:\Senehacollege\ExceptionHandling\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.dll
+D:\Senehacollege\ExceptionHandling\ExceptionHandling\bin\Debug\net8.0\ExceptionHandling.pdb
+D:\Senehacollege\ExceptionHandling\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+D:\Senehacollege\ExceptionHandling\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.AssemblyInfoInputs.cache
+D:\Senehacollege\ExceptionHandling\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.AssemblyInfo.cs
+D:\Senehacollege\ExceptionHandling\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.csproj.CoreCompileInputs.cache
+D:\Senehacollege\ExceptionHandling\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.dll
+D:\Senehacollege\ExceptionHandling\ExceptionHandling\obj\Debug\net8.0\refint\ExceptionHandling.dll
+D:\Senehacollege\ExceptionHandling\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.pdb
+D:\Senehacollege\ExceptionHandling\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.genruntimeconfig.cache
+D:\Senehacollege\ExceptionHandling\ExceptionHandling\obj\Debug\net8.0\ref\ExceptionHandling.dll
