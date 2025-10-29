@@ -15,3 +15,4 @@ Think of it as a **flexible storage box** that expands whenever you need more sp
 Namespace:  
 ```csharp
 using System.Collections.Generic;
+All other Collections also same approch 
