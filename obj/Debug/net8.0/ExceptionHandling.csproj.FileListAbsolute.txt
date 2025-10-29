@@ -12,3 +12,4 @@ D:\Senehacollege\ExceptionHandling\ExceptionHandling\obj\Debug\net8.0\refint\Exc
 D:\Senehacollege\ExceptionHandling\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.pdb
 D:\Senehacollege\ExceptionHandling\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.genruntimeconfig.cache
 D:\Senehacollege\ExceptionHandling\ExceptionHandling\obj\Debug\net8.0\ref\ExceptionHandling.dll
+D:\Senehacollege\ExceptionHandling\ExceptionHandling\obj\Debug\net8.0\ExceptionHandling.sourcelink.json

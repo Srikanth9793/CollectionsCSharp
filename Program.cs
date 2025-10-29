@@ -56,7 +56,41 @@
             //}
             //Console.ReadKey();
             Collections ob = new Collections();
+            
             ob.ListCollection();
+            ob.HashSetCollection();
+
+            ob.SortedSetCollection();
+            try
+            {
+                ob.DictionaryCollection();
+            }
+            catch(MyCustomException ex)
+            {
+                Console.WriteLine("Custom Exception: " + ex.Message);
+            }
+
+            ob.SortedListCollection();
+
+            // Genrics
+            Genericss genericss = new Genericss();
+            genericss.Display<string>("srikanth");
+            genericss.Display<float>(10.56f);
+            genericss.Display<double>(3.14);
+            genericss.Display<bool>(true);
+
+
+            // Generic Class
+            GenericClass<int> genericClassInt = new GenericClass<int>();
+            genericClassInt.value = 100;
+            Console.WriteLine($"Generic class of type Integer is: {genericClassInt.value}");
+
+            GenericClass<string> genericClassString = new GenericClass<string>();
+            genericClassString.value = "srikanth";
+            Console.WriteLine($"Generic class of type string  is: {genericClassString.value}");
+
+
+
 
             Console.ReadKey();
         }

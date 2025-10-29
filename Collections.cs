@@ -70,5 +70,97 @@ namespace ExceptionHandling
             Console.WriteLine("\n✅ All List operations executed successfully!");
 
         }
+
+        public void HashSetCollection()
+        {
+            HashSet<int> numbers = new HashSet<int>();
+
+            numbers.Add(10);
+            numbers.Add(11);
+            numbers.Add(12);
+            numbers.Add(13);
+            numbers.Add(13);
+
+            Console.WriteLine("\n\nValues are: " + string.Join(", " , numbers));
+
+            // Remove
+            numbers.Remove(10);
+
+            // Check existence
+            Console.WriteLine("Contains 30? " + numbers.Contains(30));
+
+            // Union and Intersection (Set Operations)
+            HashSet<int> other = new HashSet<int> { 30, 40, 50 };
+
+            numbers.UnionWith(other);          // Combine both sets
+            Console.WriteLine("After Union: " + string.Join(", ", numbers));
+
+            numbers.IntersectWith(other);      // Keep only common elements
+            Console.WriteLine("After Intersection: " + string.Join(", ", numbers));
+
+            // Clear all
+            numbers.Clear();
+            Console.WriteLine("Count after Clear: " + numbers.Count);
+
+        }
+
+        public void SortedSetCollection()
+        {
+            SortedSet<int> numbers = new SortedSet<int>();
+            numbers.Add(10);
+            numbers.Add(11);
+                
+            numbers.Add(12);
+            numbers.Add(9);
+            numbers.Add(13);
+            numbers.Add(13);
+
+            Console.WriteLine("\n\nSorted Set values are: " + string.Join(", ", numbers));
+
+            Console.WriteLine("Conatins ?" + numbers.Contains(9));
+        }
+
+        public void DictionaryCollection()
+        {
+            try
+            {
+                Dictionary<int, string> keyValuePairs = new Dictionary<int, string>();
+
+                keyValuePairs.Add(1, "srikanth");
+                keyValuePairs.Add(2, "John");
+                keyValuePairs.Add(3, "Johny");
+                keyValuePairs.Add(4, "Tazu");
+                keyValuePairs.Add(5, "Tazu");
+
+               
+
+                foreach (var details in keyValuePairs)
+                {
+                    Console.WriteLine($"Key is {details.Key} : {details.Value}");
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw new MyCustomException("Dictionary contains key value pairs key must be unique" + ex.Message);
+            }
+           
+
+        }
+
+        public void SortedListCollection()
+        {
+            SortedList<string, int> marks = new SortedList<string, int>();
+
+            marks.Add("C++", 90);
+            marks.Add("Python", 85);
+
+            marks.Remove("C++");
+
+            foreach (var details in marks)
+            {
+                Console.WriteLine($"\n\nKey is {details.Key} : {details.Value}");
+            }
+        }
     }
 }
